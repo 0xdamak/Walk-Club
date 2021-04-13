@@ -259,7 +259,7 @@ All responsive css rule
 @media (max-width: 767px) {
   .navbar-default {
     min-height: 60px;
-    background-color: #111111;
+    background-color: #ffffff;
   }
   .navbar-default .navbar-brand {
     margin-top: 5px;
@@ -364,6 +364,19 @@ All responsive css rule
   }
   .client-logo {
     width: 33.333333%;
+  }
+}
+
+@media (max-width: 750px) {
+  .screenshot-wrap {
+    flex-direction: column;
+    align-items: center;
+  }
+  .screenshot-wrap img {
+    width: 100%;
+  }
+  .screenshot-wrap img:not(:last-child) {
+    margin-bottom: 3rem;
   }
 }
 

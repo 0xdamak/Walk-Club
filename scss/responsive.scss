@@ -19,7 +19,7 @@ All responsive css rule
         margin-top: 12px;
     }
     .screenshot-wrap {
-        
+
     }
     .screen-mock {
         height: 379px;
@@ -317,7 +317,7 @@ All responsive css rule
 @media (max-width: 767px) {
     .navbar-default {
         min-height: 60px;
-        background-color: $baseColor;
+        background-color: #ffffff;
         .navbar-brand {
             margin-top: 5px;
             margin-bottom: 5px;
@@ -375,6 +375,8 @@ All responsive css rule
         margin-left: auto;
         margin-right: auto;
         margin-top: 88px;
+
+        
     }
     .support-tabs {
         .nav-tabs {
@@ -430,6 +432,21 @@ All responsive css rule
     }
     .client-logo {
         width: 33.333333%;
+    }
+}
+
+@media (max-width: 750px) {
+    .screenshot-wrap {
+        flex-direction: column;
+        align-items: center;
+
+        img {
+            width: 100%;
+
+            &:not(:last-child) {
+                margin-bottom: 3rem;
+            }
+        }
     }
 }
 
